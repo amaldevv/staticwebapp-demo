@@ -1,0 +1,13 @@
+{
+    "platformErrorOverrides": [
+        {
+          "errorType": "NotFound",
+          "serve": "/custom-404.html"
+        },
+        {
+          "errorType": "Unauthenticated",
+          "statusCode": "302",
+          "serve": "/login"
+        }
+      ]
+}
