@@ -1,4 +1,10 @@
 {
+    "routes":[
+        {
+            "route": "/event-schedule/*",
+            "serve": "/schedule.html"
+          }
+    ],
     "platformErrorOverrides": [
         {
           "errorType": "NotFound",
